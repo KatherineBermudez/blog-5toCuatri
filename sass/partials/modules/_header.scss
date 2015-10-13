@@ -3,12 +3,43 @@
 //
 
 .header-main{
-
+  background: #79A6BE;
+  color: #fff;
 }
 
 .titulo{
-  color: #79A6BE;
-  padding-top: 10px;
+  padding: 2% 4%;
+  font-size: 3rem;
 }
 
+nav {
+	padding: 2% 4%;
+	a{
+		color: #fff;
+		font-size: 2rem;
+	}
+}
 
+.main-nav ul {
+	display: none;
+	overflow: hidden;
+	@media (min-width: 680px){
+		display: block;
+	}
+}
+
+h2 {
+	color: #79A6BE;
+}
+
+.menu-toggle {
+	text-decoration: none;
+	@media (min-width: 680px){
+		display: none;
+	}
+}
+
+ul.expanded {
+	display: block;
+	height: 176px;
+}

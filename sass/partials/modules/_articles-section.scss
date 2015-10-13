@@ -1,0 +1,30 @@
+.articles-section{
+	padding: 2%;
+	@media (min-width: 680px){
+		float: left;
+		width: 74%
+	}
+}
+
+.blog-article{
+	display: inline-block;
+	width: 100%;
+	padding: 2%;
+	@media (min-width: 550px){
+		width: 49%;
+	}
+	@media (min-width: 900px){
+		width: 33%;
+	}
+}
+
+.recent-article {
+	padding: 2%;
+	@media (min-width: 680px){
+		float: right;
+		width: 24%
+	}
+}
+
+
+

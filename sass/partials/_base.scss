@@ -14,7 +14,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0 15px;
+
 }
 
 ul, ol {
@@ -29,9 +29,7 @@ p, li {
 
 a {
   text-decoration: none;
-  &:hover {
-    color: #79A6BE;
-  }
+  color: #79A6BE;
 }
 
 h1, h2, h3, h4, h5, h6 {
