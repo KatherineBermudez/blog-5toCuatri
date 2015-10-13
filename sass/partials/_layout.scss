@@ -1,0 +1,15 @@
+//
+// Layout styles
+//
+
+@media (min-width: 680px){
+	.blog-article{
+		float: left;
+		width: 74%
+	}
+
+	.recent-article{
+		float: right;
+		width: 24%
+	}
+}
