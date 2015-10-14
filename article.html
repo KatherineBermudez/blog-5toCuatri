@@ -4,36 +4,37 @@
   <meta charset="UTF-8">
   <title>Practica1 5to cuatri</title>
   <!-- injector:css -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
   <!-- endinjector -->
 </head>
 <body>
-  <header>
+  <header class="header-main">
 		<h1 class="titulo">Nombre del Blog</h1>
-		<img src="#" class="rrss fb">
-		<img src="#" class="rrss tw">
+		<img src="img/facebook.png" class="social-media">
+		<img src="img/twitter.png" class="social-media">
 		<nav class="nav main-nav">
+			<a href="" class="menu-toggle">Menu</a>
 			<ul>
-				<li><a href="#">Inicio</a></li>
+				<li><a href="index.html">Inicio</a></li>
 				<li><a href="#">¿Quién soy?</a></li>
 				<li><a href="#">Proyectos</a></li>
 				<li><a href="#">Contacto</a></li>
 			</ul>
 		</nav>
-  </header>
-		<article>
-			<img src="#">
-			<h2>Un artículo muy interesante</h2>
-			<time datetime="2015-08-25">25 de agosto 2015</time>
-			<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consecte- tur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapi- bus posuere velit aliquet.</p>
-			<p>Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facili- sis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-			<p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus portti- tor.</p>
-			<img src="">
-			<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consecte- tur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapi- bus posuere velit aliquet.</p>
-			<p>Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facili- sis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-			<p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus portti- tor.</p>
-		</article>
-	<aside>
+	</header>
+	<article class="articles-section">
+		<h2>Un artículo muy interesante</h2>
+		<time datetime="2015-08-25">25 de agosto 2015</time>
+		<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consecte- tur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapi- bus posuere velit aliquet.</p>
+		<p>Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facili- sis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+		<p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus portti- tor.</p>
+		<img src="img/elephant.jpg" class="big-img-article">
+		<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consecte- tur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapi- bus posuere velit aliquet.</p>
+		<p>Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facili- sis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+		<p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus portti- tor.</p>
+	</article>
+	<aside class="recent-article">
 		<h2>Artículos recientes</h2>
 		<ul>
 			<li>
@@ -49,12 +50,15 @@
 				<time datetime="2015-08-25">25 de agosto 2015</time>
 			</li>
 		</ul>
-		<button>Ver todos</button>
+		<button><a href="">Leer todos</a></button>
 	</aside>
-	<footer>
+	<footer class="footer-main">
 		<span>&copy;2015 Fulanito de Tal</span>
-		<img src="#" class="">
-		<img src="#" class="">
+		<img src="img/facebook.png" class="social-media">
+		<img src="img/twitter.png" class="social-media">
 	</footer>
+	<script scr="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
 </body>
 </html>

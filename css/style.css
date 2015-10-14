@@ -45,7 +45,8 @@ nav li {
 
 .titulo {
   padding: 2% 4%;
-  font-size: 3rem; }
+  font-size: 3rem;
+  display: inline-block; }
 
 nav {
   padding: 2% 4%; }
@@ -91,19 +92,41 @@ ul.expanded {
     .blog-article {
       width: 33%; } }
 
+.big-img-article {
+  width: 70%;
+  margin: 2% 14.5%; }
+
 .recent-article {
-  padding: 2%; }
+  margin: 4%; }
   @media (min-width: 680px) {
     .recent-article {
       float: right;
-      width: 24%; } }
+      width: 18%; } }
 
 button {
   border: none;
   background: #79A6BE;
-  color: #fff;
-  width: 30%;
-  height: 20px;
+  width: 40%;
+  height: 30px;
   margin-top: 2%; }
+  button a {
+    color: #fff; }
+
+.social-media {
+  display: inline-block;
+  float: right;
+  margin: 1% 4% 0 0;
+  width: 20px;
+  height: 20px; }
+
+.footer-main {
+  background: #79A6BE;
+  color: #fff;
+  display: inline-block;
+  padding: 0 0 2% 4%;
+  width: 100%; }
+  .footer-main span {
+    padding: 4% 0;
+    float: left; }
 
 /*# sourceMappingURL=style.css.map */
