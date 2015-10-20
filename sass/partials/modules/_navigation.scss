@@ -5,16 +5,42 @@
 // Estilos generales
 
 nav {
-  ul {
-    padding: 0;
-  }
-  li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0;
-  }
+	padding: 2% 4%;
+	ul {
+		padding: 0;
+	}
+	a{
+		color: #fff;
+		font-size: 2rem;
+	}
+
 }
 
-.main-nav li{
+.main-nav ul{
 	padding-right: 5%;
+	display: none;
+	overflow: hidden;
+	@media (min-width: 680px){
+		display: block;
+		height: auto;
+	}
+}
+
+.expanded li{
+	display: block;
+	@media (min-width: 680px){
+		display: inline-block;
+	}
+}
+
+.menu-toggle {
+	text-decoration: none;
+	@media (min-width: 680px){
+		display: none;
+	}
+}
+
+ul.expanded {
+	display: block;
+	height: 150px;
 }
