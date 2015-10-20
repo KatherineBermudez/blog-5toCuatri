@@ -24,14 +24,20 @@ nav {
 		display: block;
 		height: auto;
 	}
+	li {
+		@media (min-width: 680px){
+			display: inline-block;
+			margin-right: 2%;
+		}
+	}
 }
 
 .expanded li{
 	display: block;
-	@media (min-width: 680px){
-		display: inline-block;
-	}
+
 }
+
+
 
 .menu-toggle {
 	text-decoration: none;
@@ -42,5 +48,8 @@ nav {
 
 ul.expanded {
 	display: block;
-	height: 150px;
+	height: 170px;
+	li {
+		margin: 3%;
+	}
 }

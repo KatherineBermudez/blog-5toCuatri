@@ -2,7 +2,11 @@
 	padding: 2%;
 	@media (min-width: 680px){
 		float: left;
-		width: 74%
+		width: 68%
+	}
+	@media (min-width: 900px){
+		float: left;
+		width: 72%
 	}
 }
 
@@ -25,6 +29,10 @@
 .recent-article {
 	margin: 4%;
 	@media (min-width: 680px){
+		float: right;
+		width: 24%;
+	}
+	@media (min-width: 900px){
 		float: right;
 		width: 18%;
 	}
